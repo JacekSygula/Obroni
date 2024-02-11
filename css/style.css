@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  height: 300vh;
+  font-family: "Bakbak One", sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-color: rgb(140, 115, 45);
+  background: url("../assets/img/bg-header.webp.webp") center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(140, 115, 45);
+  font-size: 20px;
+  text-align: center;
+  line-height: 56px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
