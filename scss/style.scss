@@ -12,6 +12,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -27,4 +28,13 @@ h1 {
         font-size: 50px;
     }
 }
-    
+   
+button {
+    background-color: red;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 20px;
+    width: 120px;
+    text-align:  center;
+    border-radius: 6px;
+} 
